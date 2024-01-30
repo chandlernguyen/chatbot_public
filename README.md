@@ -19,3 +19,6 @@ Key Components
 - xml_to_json_html.py: Python script used to transform WordPress exports into structured HTML and JSON, suitable for ingestion by the chatbot.
 - all_posts.json: The example output JSON file containing the processed blog posts ready for use by the chatbot.
 - example_app.py: The full example application showcasing the chatbot in action.
+
+Contributing
+Your feedback and contributions are welcome! Please feel free to fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
