@@ -106,7 +106,7 @@ CORS(app, resources={r"/query": {"origins": "[YOUR_DOMAIN_HERE]"}})  # Replace [
 app.debug = False
 limiter = Limiter(app=app, key_func=get_remote_address)
 # Set up logging if you want to log errors and debug information
-# logging.basicConfig(filename='application.log', level=logging.DEBUG)
+logging.basicConfig(filename='application.log', level=logging.DEBUG)
 
 _ = load_dotenv(find_dotenv()) 
 
@@ -187,4 +187,4 @@ def home():
     return 'Hello, World!'
 
 if __name__ == '__main__':
-    # app.run(debug=True)
+    app.run(debug=True)
